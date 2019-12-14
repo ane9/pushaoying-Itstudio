@@ -1,0 +1,87 @@
+.works {
+  width: 1300px;
+  height: 767px;
+  margin: auto;
+  margin-bottom: 73px;
+  padding-top: 50px;
+  text-align: center;
+}
+
+.works .worksCenter {
+  height: 413px;
+  position: relative;
+}
+
+.works .worksCenter .worksCenterLeft {
+  width: 493px;
+  height: 250px;
+  padding: 23px 19px 26px 19px;
+  background-color: #b7e6ff;
+  float: left;
+  border-radius: 20px;
+  position: absolute;
+  top: 47px;
+}
+
+.works .worksCenter .worksCenterLeft img {
+  width: 493px;
+  height: 250px;
+}
+
+.works .worksCenter .worksCenterRight {
+  width: 493px;
+  height: 250px;
+  padding: 23px 19px 26px 19px;
+  background-color: #b7e6ff;
+  border-radius: 20px;
+  position: absolute;
+  top: 47px;
+  right: 0px;
+  z-index: 0;
+}
+
+.works .worksCenter .worksCenterRight img {
+  width: 493px;
+  height: 250px;
+}
+
+.works .worksCenter .worksCenterC {
+  width: 595px;
+  height: 302px;
+  padding: 43px 27px 45px 30px;
+  background-color: #19aeff;
+  float: left;
+  border-radius: 20px;
+  position: absolute;
+  left: 313px;
+  z-index: 2;
+}
+
+.works .worksCenter .worksCenterC img {
+  width: 595px;
+  height: 302px;
+}
+
+.works .worksWord {
+  margin-bottom: 20px;
+  height: 36px;
+  text-align: center;
+  color: #000;
+  font-size: 24px;
+  font-weight: 400;
+  font-family: SourceHanSansCN-Regular;
+  line-height: 36px;
+}
+
+.works button {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: SourceHanSansCN-Regular;
+  line-height: 36px;
+  background: #58c4ff;
+  border-radius: 15px;
+  width: 163px;
+  height: 37px;
+  border: 0;
+}

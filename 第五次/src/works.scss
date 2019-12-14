@@ -1,0 +1,79 @@
+.works{
+    width: 1300px;
+    height: 562px+205px;
+    margin: auto;margin-bottom: 73px;
+    padding-top: 50px;
+    text-align: center;
+    .worksCenter{
+        // clear: both;
+        height: 390px+23px;
+        position: relative;
+        // overflow: auto;
+        .worksCenterLeft{
+       width: 493px;height: 250px;
+       padding: 23px 19px 26px 19px;
+       background-color: rgb(183, 230, 255);
+       float: left;
+       border-radius: 20px;
+       position: absolute;
+       top: 47px;
+       img{
+        width: 493px;height: 250px;
+        }
+   }
+   .worksCenterRight{
+    width: 493px;height: 250px;
+    padding: 23px 19px 26px 19px;
+    background-color: rgb(183, 230, 255);
+    // float: right;
+    border-radius: 20px;
+    position: absolute;
+    top: 47px;
+    right: 0px;
+    z-index: 0;
+    img{
+        width: 493px;height: 250px;
+        }
+}
+   .worksCenterC{
+       width: 595px;height: 302px;
+       padding: 43px 27px 45px 30px;
+       background-color: rgb(25, 174, 255);
+       float: left;
+       border-radius: 20px;
+       position: absolute;
+       left: 313px;
+       z-index: 2;
+       img{
+           width: 595px;height: 302px;
+       }
+   }
+    }
+   
+   .worksWord{
+    //    margin-top: 390px+23px+66px;
+       margin-bottom: 20px;
+       height: 36px;
+       text-align: center;
+       color:
+#000;
+font-size: 24px;
+font-weight: 400;
+font-family: SourceHanSansCN-Regular;
+line-height: 36px;
+   }
+   button{
+    color:
+    #fff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: SourceHanSansCN-Regular;
+    line-height: 36px;
+    background:
+    #58c4ff;
+    border-radius: 15px;
+    width: 163px;
+    height: 37px;
+    border: 0;
+   }
+}

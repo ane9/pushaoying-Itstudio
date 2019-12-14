@@ -1,0 +1,21 @@
+.up {
+  font-size: 24px;
+  font-weight: 400;
+  font-family: SourceHanSansCN-Regular;
+  line-height: 36px;
+  color: #32adec;
+}
+
+.up span {
+  color: #8b8b8b;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.down {
+  color: #e29e28;
+  font-size: 36px;
+  font-weight: 400;
+  font-family: SourceHanSansCN-Regular;
+  line-height: 36px;
+}

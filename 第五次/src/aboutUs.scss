@@ -1,0 +1,97 @@
+
+.aboutUs{
+    width: 1300px;height: 651px;
+    margin: auto;
+    margin-bottom: 73px;
+    padding-top: 50px;
+    text-align: center;
+    z-index: 2;
+    position: relative;
+    background-color:white;
+    border-radius: 20px;
+    position: relative;
+    top:-180px;
+    
+    .up{
+        font-size: 24px;
+        font-weight: 400;
+        font-family: SourceHanSansCN-Regular;
+        line-height: 36px;
+        color: #32adec;
+        span{
+            color: #8b8b8b;
+            display: inline-block;
+            margin-left: 10px;
+        }
+    }
+    .down{
+        color:#e29e28;
+font-size: 36px;
+font-weight: 400;
+font-family: SourceHanSansCN-Regular;
+line-height: 36px;
+    }
+    .detail{
+        text-align: left;
+        text-indent: 36px;
+        width: 1146px;height: 159px;
+        margin: 64px 83px 66px 71px;
+        color:#232323;
+font-size: 18px;
+font-weight: 400;
+font-family: SourceHanSansCN-Regular;
+line-height: 30px;
+        #detailOne{
+            margin-bottom: 30px;
+        }
+    }
+    #aboutUsChild{
+        display: flex;
+        justify-content: space-between;
+        .element{
+            width: 390px;height: 299px;
+            background-color: rgb(245, 245, 245);
+            border-radius: 20px;
+            .elementTitle{
+                margin: 37px 32px 45px;
+                overflow: hidden;
+                #elementTitleImg1{
+                    float: left;
+                    width: 76px;height: 76px;
+                    background-image: url(./a.jpg);
+                    background-size: 76px 76px;
+                    margin-right: 32px;
+                }
+                .up{
+                    text-align: left;
+                }
+                .down{
+                    text-align: left;
+                }
+            }
+            p{
+                color:#232323;
+                text-align: left;
+font-size: 18px;
+font-weight: 400;
+font-family: SourceHanSansCN-Regular;
+line-height: 30px;
+width: 326px;height: 90px;margin: auto;
+            }
+        }
+    }
+}
+#elementTitleImg2{
+    float: left;
+    width: 76px;height: 76px;
+    background-image: url(./b.jpg);
+    background-size: 76px 76px;
+    margin-right: 32px;
+}
+#elementTitleImg3{
+    float: left;
+    width: 76px;height: 76px;
+    background-image: url(./index.jpg);
+    background-size: 76px 76px;
+    margin-right: 32px;
+}

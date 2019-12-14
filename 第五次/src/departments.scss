@@ -1,0 +1,76 @@
+.departments{
+    width: 1300px;
+    height: 561px;
+    margin: auto;margin-bottom: 73px;
+    padding-top: 50px;
+    text-align: center;
+    .photoSmallF{
+        width: 105px;height: 106px;
+        background-image: url(./index.png);
+        background-size:105px 106px;
+    }
+    .photoSmallB{
+        width: 105px;height: 106px;
+        background-image: url(./index1.png);
+        background-size:105px 106px;
+    }
+    .photoSmallC{
+        width: 105px;height: 106px;
+        background-image: url(./index2.png);
+        background-size:105px 106px;
+    }
+    .photoSmallD{
+        width: 105px;height: 106px;
+        background-image: url(./index3.png);
+        background-size:105px 106px;
+    }
+    .photoSmallE{
+        width: 105px;height: 106px;
+        background-image: url(./index4.png);
+        background-size:105px 106px;
+    }
+    .sharpL{
+        width: 40px;height: 40px;
+        border-top:  rgb(220, 236, 240) solid 5px;
+        border-left: rgb(220, 236, 240) solid 5px;
+        transform: rotate(-45deg);
+        position: absolute;
+        top: 34px+30px;left: -45px;
+    }
+    .sharpR{
+        width: 40px;height: 40px;
+        border-top: #b7e6ff solid 5px;
+        border-right: #b7e6ff solid 5px;
+        transform: rotate(45deg);
+        position: absolute;
+        top: 34px+30px;right: -45px;
+    }
+}
+#photoSmallA{
+    background-color: rgb(124, 209, 255);
+}
+#photoSmallB{
+    background-color: rgb(237, 108, 158);
+}
+#photoSmallC{
+    background-color: rgb(176, 98, 192);}
+#photoSmallD{
+    background-color: rgb(137, 194, 170);
+}
+#photoSmallE{
+    background-color: rgb(245, 181, 126);
+}
+#photoSmalla{
+    background-color:rgb(183, 230, 255);
+}
+#photoSmallb{
+    background-color:rgb(148, 217, 255);
+}
+#photoSmallc{
+    background-color: rgb(121, 208, 255);}
+#photoSmalld{
+    background-color: rgb(88, 196, 255);
+}
+#photoSmalle{
+    background-color: rgb(25, 174, 255);
+}

@@ -1,0 +1,106 @@
+.navigation{
+  padding-top: 20px;
+  margin-bottom: 16px;
+  height:84px;
+  background:rgba(255,255,255,1);
+  display: flex;
+  justify-content: center;
+  .navigationLeft{
+    width: 246px;height: 84px;
+    display: flex;
+    .navigationLeftImg{
+      width: 76px;height: 77px;
+      background-image: url(./abc.jpg);
+    }
+    .navigationLeftWord{
+      width: 150px;height: 84px;
+      margin-left: 20px;
+      .navigationLeftWordOne{
+        color:#000;
+        font-size: 38px;
+        font-weight: 400;
+        font-family: SourceHanSansCN-Regular;
+        line-height: 42px;
+      }
+      .navigationLeftWordTwo{
+        color:#000;
+        font-size: 28px;
+        font-weight: 400;
+        font-family: SourceHanSansCN-Regular;
+        line-height: 42px;
+      }
+    }
+  }
+  .navigationRight{
+      float: right;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-left: 270px;
+      margin-right: 90px;
+      width:521px;
+      height:100px;
+      font-size:18px;
+      font-family:Source Han Sans CN;
+      font-weight:400;
+      color:rgba(107,107,107,1);
+  }
+  .join{
+      float: right;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top:33px;
+      width:89px;
+      height:39px;
+      background:rgba(0,168,236,1);
+      border-radius:20px;
+      font-size:18px;
+      font-family:Source Han Sans CN;
+      font-weight:400;
+      color:rgba(255,255,255,1);
+  }
+}
+.navigationPhoto{
+  height: 740px;
+  background-image: url(./nxUQwjbNZTivKGB.png);
+  background-repeat: no-repeat;
+  background-size: 100%  100%;
+
+  position: relative;
+  video{
+    height: 748px;
+  }
+  .navigationPhotoWord{
+    float: left;
+    width: 341px;
+    //margin:187px  438px 0px 1141px;
+    font-family:Consolas;
+    font-size: 36px;
+    line-height:24px;
+    position: absolute;
+    top: 187px;left: 1140px;
+    // top: 160px;left: 50px;
+    #p{
+      height: 48px;
+    }
+    #a{
+      color:#32ADEC;
+      font-weight: 700;
+      font-family: Consolas-Bold;
+      letter-spacing: 4px;
+    }
+    #b{
+      color: #E29E28;
+      font-weight: 400;
+    }
+    #c{
+      color: #32ADEC;
+    }
+    #d{
+      font-family:SourceHanSansCN-Regular;
+      color: #FFFFFF;
+      letter-spacing: 4px;
+    }
+  }
+}

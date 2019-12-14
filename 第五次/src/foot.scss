@@ -1,0 +1,49 @@
+.foot{
+    height: 157px;
+    background:rgba(245,245,245,1);
+    #footSmall{
+        width: 1300px;
+        margin: auto;
+        position: relative;
+        img{
+            position: absolute;
+            top: 50px;
+            left: 0px;
+        }
+        #footL{
+            float: left;
+            margin-top:60px;
+            width: 464px;
+            text-align: right;
+            font-size:38px;
+            line-height: 42px;
+            font-family:SourceHanSansCN-Regular;
+            font-weight:400;
+            color:#FFAA00;
+            span{
+                font-size:24px;
+                color: #FACE70;
+            }
+        }
+        #footR{
+            margin-top: 38px;
+            float: right;
+            
+            color:#a3a3a2;
+font-size: 8px;
+font-weight: 400;
+font-family: SourceHanSansCN-Regular;
+line-height: 16px;
+           ul{
+            display: flex;
+            flex-direction: column;
+            text-align: right;
+               #footli4{
+                margin-bottom: 10px;
+                }
+           }
+
+            
+        }
+    }
+}

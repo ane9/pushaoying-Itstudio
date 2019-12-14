@@ -1,0 +1,105 @@
+.departments {
+  width: 1300px;
+  height: 561px;
+  margin: auto;
+  margin-bottom: 73px;
+  padding-top: 50px;
+  text-align: center;
+}
+
+.departments .photoSmallF {
+  width: 105px;
+  height: 106px;
+  background-image: url(./index.png);
+  background-size: 105px 106px;
+}
+
+.departments .photoSmallB {
+  width: 105px;
+  height: 106px;
+  background-image: url(./index1.png);
+  background-size: 105px 106px;
+}
+
+.departments .photoSmallC {
+  width: 105px;
+  height: 106px;
+  background-image: url(./index2.png);
+  background-size: 105px 106px;
+}
+
+.departments .photoSmallD {
+  width: 105px;
+  height: 106px;
+  background-image: url(./index3.png);
+  background-size: 105px 106px;
+}
+
+.departments .photoSmallE {
+  width: 105px;
+  height: 106px;
+  background-image: url(./index4.png);
+  background-size: 105px 106px;
+}
+
+.departments .sharpL {
+  width: 40px;
+  height: 40px;
+  border-top: #dcecf0 solid 5px;
+  border-left: #dcecf0 solid 5px;
+  transform: rotate(-45deg);
+  position: absolute;
+  top: 64px;
+  left: -45px;
+}
+
+.departments .sharpR {
+  width: 40px;
+  height: 40px;
+  border-top: #b7e6ff solid 5px;
+  border-right: #b7e6ff solid 5px;
+  transform: rotate(45deg);
+  position: absolute;
+  top: 64px;
+  right: -45px;
+}
+
+#photoSmallA {
+  background-color: #7cd1ff;
+}
+
+#photoSmallB {
+  background-color: #ed6c9e;
+}
+
+#photoSmallC {
+  background-color: #b062c0;
+}
+
+#photoSmallD {
+  background-color: #89c2aa;
+}
+
+#photoSmallE {
+  background-color: #f5b57e;
+}
+
+#photoSmalla {
+  background-color: #b7e6ff;
+}
+
+#photoSmallb {
+  background-color: #94d9ff;
+}
+
+#photoSmallc {
+  background-color: #79d0ff;
+}
+
+#photoSmalld {
+  background-color: #58c4ff;
+}
+
+#photoSmalle {
+  background-color: #19aeff;
+}

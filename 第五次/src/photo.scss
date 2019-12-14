@@ -1,0 +1,36 @@
+.photo{
+    width: 1300px;height: 299px;
+    margin-bottom: 69px;
+    display: flex;
+    justify-content: space-between;
+    .photoSmall{
+        width: 240px;height: 299px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background: black;
+        border-radius: 20px;
+        .photoSmallA{
+            width: 105px;height: 106px;
+            margin-bottom: 46px;
+            // background: blanchedalmond;
+            color:#fff;
+            font-size: 80px;
+            font-weight: 400;
+            font-family: SourceHanSansCN-Regular;
+            line-height: 106px;
+            position: relative;
+            
+        }
+        .photoWord{
+            text-align: center;
+color:
+#fff;
+font-size: 30px;
+font-weight: 400;
+font-family: SourceHanSansCN-Regular;
+line-height: 36px;
+        }
+    }
+}
